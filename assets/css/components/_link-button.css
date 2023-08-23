@@ -1,0 +1,41 @@
+a.link-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 0 2rem;
+  }
+
+  a.link-button:first-child{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding-left: 0;
+  }
+  a.link-button .icon{
+    width: 32px;
+    height: 32px;
+    padding: 3px;
+    background-color: black;
+    border: solid 1px black;
+    background-clip: content-box;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  a.link-button .icon .play-icon{
+    border:solid 7px var(--primary-color);
+    width:0;
+    height: 0;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    margin-right: -7px;
+  }
+  
+  a.link-button .label{
+    margin-left: 10px;
+  }

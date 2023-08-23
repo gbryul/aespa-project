@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/home-page.css">
+    <script src="assets/scripts/script.js"></script>
+    <title>Aespa | Members</title>
+</head>
+<body>
+    <nav class="ae-menu">
+        <li class = "ae-menu__logo ae-menu__item">
+            <a href="index.html"><img src="assets/images/aespa-logo.svg" alt="logo"></a>
+        </li>
+        <li class = "ae-menu__item">
+            <a href="pages/karina.html">Karina</a>
+        </li>
+        <li class = "ae-menu__item">
+           <a href="pages/giselle.html">Giselle</a>
+        </li>
+        <li class = "ae-menu__item">
+            <a href="pages/winter.html">Winter</a>
+        </li>
+        <li class = "ae-menu__item">
+            <a href="pages/ningning.html">Ningning</a>
+        </li>
+    </nav>
+    <div class="ae-members">
+        <div class="ae-cards-carousel" style="transform: translateZ(-40vw) rotateY(0deg);">
+            <a href="pages/karina.html" class = "ae-card" id="member-01">
+                <img class = "ae-card__bg" src="assets/images/bg_k.jpg">
+                <img class = "ae-card__img" src="assets/images/aespa-karina.png" alt="Karina">
+                <h2 class="ae-card__title">Karina </h2>
+            </a>
+            <a href="pages/giselle.html" class = "ae-card" id="member-02">
+                <img class = "ae-card__bg" src="assets/images/bg_g.jpeg">
+                <img class = "ae-card__img" src="assets/images/aespa-giselle.png" alt="Giselle">
+                <h2 class="ae-card__title">Giselle</h2>
+            </a>
+            <a href="pages/winter.html" class = "ae-card" id="member-03" >
+                <img class = "ae-card__bg" src="assets/images/bg_w.jpeg">
+                <img class = "ae-card__img" src="assets/images/aespa-winter.png" alt="Winter">
+                <h2 class="ae-card__title">Winter</h2>
+            </a>
+            <a href="pages/ningning.html" class = "ae-card" id="member-04">
+                <img class = "ae-card__bg" src="assets/images/bg_n.jpg">
+                <img class = "ae-card__img" src="assets/images/aespa-ningning.png" alt="Ningning">
+                <h2 class="ae-card__title">NingNing</h2>
+            </a>
+        </div>
+    </div>
+    <div class="ae-controller">
+     <div id="1" onclick="selectCarouselItem(this)" class="ae-controller__button ae-controller__button--active">
+      1  
+     </div>
+     <div id="2" onclick="selectCarouselItem(this)" class="ae-controller__button">
+      2  
+     </div>
+     <div id="3" onclick="selectCarouselItem(this)" class="ae-controller__button">
+      3  
+     </div>
+     <div id="4" onclick="selectCarouselItem(this)" class="ae-controller__button">
+      4  
+     </div> 
+     <div class="ae-controller__line"></div>           
+    </div>
+</body>
+</html>
